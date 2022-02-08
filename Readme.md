@@ -4,15 +4,16 @@
 Features :
 - Allows mechanics or a set job (configurable in Config file) to install vehichle upgrades as usable items. 
 - Some of the items have been set up and incorporated with to be craftable already, work will continue on this...
-- Originally I believe it was set up so you had to do the upgrades in stages, however, when functioning for me I could simply put Stage 4 upgrades on a Stock engine so not sure if that was removed.
+- Full Crafting Menu with Recipes
+- Even more items availble for installion for Mechanics then before!
 
 Preview : 
 - Please make sure you use the latest dependencies aswell as core for this in order to work.
-- This Job has been tested on the latest build as of 2/2/2022
+- This Job has been tested on the latest build as of 9/2/2022
 
 Issues :
-- Ran into issues where it wasnt saving the upgrades, as soon as you complete them and check mods it was still completely stock, putting this up in its current state in the hopes someone can get it working...
-- This could simply be a "me" issue on our server, if you complete the following steps, it SHOULD work though... 
+- When crafting it doesnt check the requirements for item until running through the short minigame.
+- If Stage 3/4 etc is installed, you cannot put a Stock item on it to return it back to stock (Not that I think many would de-mod their car but worth nothing all the same)
 - Feedback is greatly appreciated, I am simply looking to update the script and effort orginally create by DrB1ackBeard, I deserve NO CREDIT whatsoever for this project!
 
 ## Dependencies :
@@ -20,13 +21,14 @@ QB Framework
 PolyZone
 qb-target
 qb-menu
-
-think thats all you need...
+Thats all i can think of right now I'm sure there is more but my brain is busted for the night and jsut wanted to get this out for you all to enjoy and play round wioth yourself. 
 
 ## Credits : 
 Kyle
 DrB1ackBeard
-ANZ Gaming
+maestro
+Idris
+
 
 ## Insert into #qb-core - shared/items.lua
 ```
